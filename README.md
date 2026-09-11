@@ -71,7 +71,9 @@ All frame processing stays on the Mac. HingeScape does not record frames to disk
 
 ## Origins and attribution
 
-HingeScape is an independent macOS implementation inspired by earlier public experiments:
+HingeScape was developed from the **MacBook Duo complete source package** shared by **江灵夏草** at [MacBookDuoCode](https://wwbwf.lanzoul.com/MacBookDuoCode). The download page identifies the package as `MacBook-Duo-完整源码.zip`; it does not separately identify the source code's original author or declare a license. HingeScape preserves this provenance and does not imply ownership of the original MacBook Duo work.
+
+The project also credits the public experiments and technical references behind that source:
 
 - [DuoLikeAnimation](https://github.com/elijah-semyonov/DuoLikeAnimation) by **Elijah Semyonov** — the original SwiftUI/Metal iPhone prototype. It is published under the MIT License, copyright © 2026 Elijah Semyonov.
 - [Duo-animation / DuoFold](https://github.com/Atomicx7/Duo-animation) by **Atomicx7** — the public Android projection-model reference. Its repository does not currently declare a license; HingeScape uses an independent Metal implementation rather than copying its source.

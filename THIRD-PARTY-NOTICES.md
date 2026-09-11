@@ -2,6 +2,16 @@
 
 HingeScape is an independent macOS implementation informed by the following public projects.
 
+## MacBook Duo source package
+
+- Shared by: 江灵夏草
+- Package: `MacBook-Duo-完整源码.zip`
+- Source page: https://wwbwf.lanzoul.com/MacBookDuoCode
+- Role: Direct source package from which this HingeScape repository was developed.
+- License: No license or separate original-author identity is displayed on the download page.
+
+HingeScape preserves this direct provenance. The name of the sharing account is recorded as the uploader and is not presented as proof of authorship. No ownership of the original MacBook Duo project is claimed.
+
 ## DuoLikeAnimation
 
 - Author: Elijah Semyonov (`elijah-semyonov`)
