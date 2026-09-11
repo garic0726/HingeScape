@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+    <key>CFBundleDevelopmentRegion</key>
+	<string>en</string>
+    <key>CFBundleExecutable</key>
+    <string>HingeScape</string>
+    <key>CFBundleIdentifier</key>
+    <string>app.hingescape.mac</string>
+    <key>CFBundleInfoDictionaryVersion</key>
+    <string>6.0</string>
+    <key>CFBundleName</key>
+    <string>HingeScape</string>
+    <key>CFBundleDisplayName</key>
+    <string>HingeScape</string>
+    <key>CFBundleIconFile</key>
+    <string>HingeScape</string>
+    <key>CFBundlePackageType</key>
+    <string>APPL</string>
+    <key>CFBundleShortVersionString</key>
+    <string>0.6</string>
+    <key>CFBundleVersion</key>
+    <string>6</string>
+    <key>NSScreenCaptureUsageDescription</key>
+	<string>Captures the desktop in real time to create the glass effect as the display moves. Content is processed locally and is never recorded.</string>
+    <key>NSPrefersDisplaySafeAreaCompatibility</key>
+    <false/>
+    <key>LSMinimumSystemVersion</key>
+    <string>14.0</string>
+    <key>NSHighResolutionCapable</key>
+    <true/>
+    <key>NSSupportsAutomaticGraphicsSwitching</key>
+    <true/>
+</dict>
+</plist>

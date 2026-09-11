@@ -1,0 +1,15 @@
+# Build products
+/build/
+
+# macOS metadata
+.DS_Store
+
+# Xcode and SwiftPM local state
+.build/
+DerivedData/
+*.xcuserstate
+xcuserdata/
+
+# Local logs and temporary files
+*.log
+*.tmp

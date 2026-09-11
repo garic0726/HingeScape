@@ -1,0 +1,29 @@
+name: Build and Test
+
+on:
+  push:
+  pull_request:
+
+jobs:
+  macos:
+    runs-on: macos-14
+    steps:
+      - name: Check out repository
+        uses: actions/checkout@v4
+
+      - name: Run safety tests
+        run: ./test.sh
+
+      - name: Build HingeScape
+        run: ./build.sh
+
+      - name: Verify bundle metadata
+        run: |
+          test -x "build/HingeScape.app/Contents/MacOS/HingeScape"
+          test "$(/usr/libexec/PlistBuddy -c 'Print :CFBundleIdentifier' 'build/HingeScape.app/Contents/Info.plist')" = "app.hingescape.mac"
+
+      - name: Upload app bundle
+        uses: actions/upload-artifact@v4
+        with:
+          name: HingeScape-macOS
+          path: build/HingeScape.app
